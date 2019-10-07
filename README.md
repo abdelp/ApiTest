@@ -9,20 +9,20 @@ Ingresa al directorio raíz del proyecto y ejecuta `npm install` para instalar l
 Luego ejecuta `ng serve` para iniciar el servidor de desarrollo.
 Navega a `http://localhost:4200/`.
 
-Login
+### Login
 
 ![](/src/assets/imgs/login.PNG?raw=true)
 
 Para ingresar, indique su correo y contraseña. En caso de aún no contar con una cuenta, presione la opción "Crear una cuenta"
 
-Registro de usuario
+### Registro de usuario
 
 ![](/src/assets/imgs/regist.PNG?raw=true)
 
 Para registrarse, indique su email y contraseña para su cuenta. Se estará indicado un mensaje en caso de registrarse la cuenta exitosamente o en caso contrario el mensaje de error.
 
 
-Lista de quehaceres.
+### Lista de quehaceres.
 
 ![](/src/assets/imgs/todo-list.PNG?raw=true)
 
