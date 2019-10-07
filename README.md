@@ -8,8 +8,7 @@ La Api fue testeada con angular 7 y node v8.
 
 Ingresa al directorio raíz del proyecto y ejecuta `npm install` para instalar las dependencias requeridas.
 
-Luego ejecuta `ng serve` para iniciar el servidor de desarrollo.
-Navega a `http://localhost:4200/`.
+Luego ejecuta `ng serve --open` para iniciar el servidor de desarrollo. La api se desplegará en el navegador por defecto.
 
 ### Login
 
