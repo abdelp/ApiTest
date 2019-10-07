@@ -11,4 +11,4 @@ Navega a `http://localhost:4200/`.
 
 Login
 
-![](/src/assets/imgs/login.png?raw=true)
+![](/src/assets/imgs/login.PNG?raw=true)
