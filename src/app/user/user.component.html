@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default navbar-static-top navbar-inverse">
+  <div class="container">
+    <a (click)="logout()" class="navbar-text navbar-right navbar-link">Logout</a>
+  </div>
+</nav>
+
+<h1 class="header">TODO List</h1>
+
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <td>Id</td>
+        <td>EmpNo</td>
+        <td>User Name</td>
+        <td>Title</td>
+        <td style="width: auto;">Completed</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let todo of todos | paginate: { id: 'listing_pagination',
+                                                          itemsPerPage: 10,
+                                                          currentPage: page,
+                                                          totalItems: totalRec }">
+        <td>{{todo.id}}</td>
+        <td>{{todo.userId}}</td>
+        <td>{{todo.user[0].name}}</td>
+        <td>{{todo.title}}</td>
+        <td style="width: auto;"><input type="checkbox" [(checked)]="todo.completed" ></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <div class="row">
+    <pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+  </div>
