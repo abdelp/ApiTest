@@ -30,4 +30,4 @@ Para registrarse, indique su email y contraseña para su cuenta. Se estará indi
 
 Se muestra el listado de que haceres junto a los usuarios a los cuales corresponde cada tarea. En la parte inferior izquierda del listado, se cuenta con el paginador de tareas.
 
-En caso de querer salir de su cuenta, presione la opción "Logout" ubicada en la parte superior derecha.
+Para salir de su cuenta, presione la opción "Logout" ubicada en la parte superior derecha.
