@@ -1,6 +1,8 @@
 # Api Test
 
-Api Test con autenticación firebase y angular 7.
+Api Test de autenticación firebase y listado de quehaceres.
+
+La Api fue testeada con angular 7 y node v8.
 
 ## Instalación
 
